@@ -1,0 +1,9 @@
+@import url(grid.css);
+
+.grid-inplicita{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-auto-flow: column;
+  grid-auto-columns: 400px;
+}

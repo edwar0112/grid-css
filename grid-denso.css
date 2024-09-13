@@ -1,0 +1,37 @@
+@import url(grid.css);
+
+.grid-denso{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  grid-auto-flow: row;
+  grid-auto-flow: row dense;
+  grid-auto-flow: column;
+}
+
+/*.item:nth-child(9){
+  background-color: brown;
+  color: #fff;
+  grid-row: span 3;
+  grid-column:span 3;
+}
+*/
+
+.item:nth-child(11){
+  background-color: brown;
+  color: #fff;
+  grid-column: 3 / 4;
+  /*grid-row: 2 / 3;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
